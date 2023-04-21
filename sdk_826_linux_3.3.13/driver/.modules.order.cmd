@@ -1,0 +1,1 @@
+cmd_/home/linux/Documents/malithjkd/sdk_826_linux_3.3.13/driver/modules.order := {   echo /home/linux/Documents/malithjkd/sdk_826_linux_3.3.13/driver/s826.ko; :; } | awk '!x[$$0]++' - > /home/linux/Documents/malithjkd/sdk_826_linux_3.3.13/driver/modules.order

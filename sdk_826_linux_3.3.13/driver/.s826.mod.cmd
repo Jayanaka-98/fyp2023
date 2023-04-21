@@ -1,0 +1,1 @@
+cmd_/home/linux/Documents/malithjkd/sdk_826_linux_3.3.13/driver/s826.mod := { echo  /home/linux/Documents/malithjkd/sdk_826_linux_3.3.13/driver/s826.o;  echo; } > /home/linux/Documents/malithjkd/sdk_826_linux_3.3.13/driver/s826.mod
