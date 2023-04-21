@@ -109,9 +109,9 @@ static double rtob_filter_output = 0.0;
 static double rtob_force = 0.0;
 
 // PID
-static double K_p = 100;
-static double K_I = 0;
-static double K_d = 10;
+static double K_p = 2000.0; //1900.0; //1500.0; //1200; //1000.0;
+static double K_I = 150.0;
+static double K_d = 200.0; //100.0;
 
 //Generate force response
 static double K_s = 2.0;	
@@ -265,17 +265,17 @@ static int ControlLoop(uint board)
 	//K_p = 500;
 	//K_I = 10; //5.0;
 	//K_d = 0.1; //3.16/10;
-	FILE *fp2 = fopen("Large Motor 3.txt","a+");
+	FILE *fp2 = fopen("/home/linux/Documents/fyp2023-1/Data/Large_Motor_26.txt","a+");
 
 
-	for(i=0;i<100000;i++)
+	for(i=0;i<800000;i++)
 	{
 
 //		X_ref = reading[i]/1000000*10;	
 //		printf("%f\n",X_ref);
 //		X_ref = 0;
 //		X_ref = 0.01*sin(2*PI*1*(i*0.00002));
-		X_ref = X_ref + (dt * 0.005);
+		X_ref = X_ref + (dt * 0.001);
 		
 //		if(i<200000)
 //		{
