@@ -13,7 +13,7 @@ There are requirements to identify minute surface texture irregularities and cla
 
 **-- OBJECTIVES**
 
-1. HAPTIC AMPLIFIER
+1. HAPTIC AMPLIFIER:
 
 As the haptic amplifier, a non-identical master replica system that is capable of simultaneous force-position response amplification was developed. Two linear actuators were designed—one to interact with a human hand and the other to interact with the surface. The robust control was realized with the disturbance observer while a sensorless sensing approach was employed to estimate the reaction force experienced by the motors.
 
