@@ -7,9 +7,11 @@ There are five different sensory mechanisms in the grand design of the human bei
 
 The sense of touch  which us also referred to as haptic sensation is much harder to record and reproduce relative to the auditory and visual senses. The mechanism of feeling the haptic sensation of any object is by making direct contact with any part of the skin. But to feel some surface thoroughly humans tend to apply a force. This force is countered by a reaction force which then deforms the skin. This stimulates mechanoreceptors \citep{serhat2021free} within the skin which is what we feel as haptic sensation. However, this haptic sensation will not be equal for all humans as human skin loses the ability to perceive the sense of touch with age. Therefore, even though the human sense of touch is very advanced, we are sometimes incapable of distinguishing extremely smooth surfaces. However, these surfaces also have minute surface texture irregularities which are beyond the capturing range of a human.
 
+
 **-- PROBLEM STATEMENT**
 
 There are requirements to identify minute surface texture irregularities and classify objects based on surface texture data. 
+
 
 **-- OBJECTIVES**
 
@@ -21,11 +23,13 @@ As the haptic amplifier, a non-identical master replica system that is capable o
 
 This study delves into the utilization of machine learning techniques to classify objects based on the haptic perception of surface textures. The haptic feedback from various surfaces was captured using the replica actuator used in the haptic amplifier to record position and force variation of the surface texture. Notably, the force data was estimated without relying on traditional force sensors, employing the sensorless sensing approach instead. Using the gathered data for five different surface classes, feature extraction was done and feature correlation was identified.
 
+
 **-- EXPERIMENT AND RESULTS**
 
 Three different controllers; position controller, force controller, and an acceleration based scaling bilateral controller were tested for the haptic amplifier, and the scaling bilateral controller with mass normalization exhibited the highest capability in reproducing surface texture. This controller was recommended for achieving haptic reproduction, allowing operators to perceive intricate surface details otherwise unnoticeable. The haptic amplifier also revealed minor imperfections in the fabricated test surfaces that were more perceptible through the amplifier than when touched directly by hand.
 
 Using selected features after gathering data, two machine learning models were employed: a Random Forest (RF) classifier and a Convolutional Neural Network (CNN). Training these models revealed that the CNN outperformed the RF model in terms of both accuracy and speed during testing. However, it's worth noting that the CNN model demanded substantial computational resources for training. Despite this computational cost, the CNN algorithm emerged as the most suitable machine learning model for this application.
+
 
 **-- APPLICATIONS**
 
